@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def show
-    render template: "pages/#{params[:page]}"
+    render params[:page]
   end
 end
