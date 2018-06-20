@@ -6,13 +6,14 @@ body {
   margin: 0 0;
 }
 
-.content-container {
+.title-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
-.content {
+.title {
   background-color: #dee1e5;
   border: 5px dotted yellow;
   height: 300px;
@@ -20,6 +21,17 @@ body {
   color: black;
   margin: 0 auto;
   text-align: center;
+  position: absolute;
+  top: 200px;
+}
+
+.container {
+  position: relative;
+}
+
+.content-container {
+  position: absolute;
+  top: 200px;
 }
 
 .stars-container {
