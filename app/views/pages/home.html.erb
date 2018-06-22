@@ -1,17 +1,64 @@
+<div class="stars-container">
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
 
-
-  <div class="stars-container">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-
-    <div class="title-container">
-      <div class="title">
-        <h1>Cindy Xie</h1>
-        <h3>Web Developer</h3>
-      </div>
+  <div class="title-container" >
+    <div class="title">
+      <h2>Scroll down to start space journey</h2>
+      <p>Interactive CV</p>
+        <%= image_tag "spaceship.png", id:"spaceship" %>
     </div>
   </div>
+  <div class="planets" data-aos="fade-left"
+     data-aos-anchor="#trigger-left"
+ >
+    <%= image_tag "jupiter.png", id:"jupiter" %>
+  </div>
+
+  <div class="planets" data-aos="fade-left"
+     data-aos-anchor="#trigger-right">
+    <%= image_tag "moon.png", id:"moon" %>
+  </div>
+
+  <div class="planets" data-aos="fade-left"
+     data-aos-anchor="#trigger-earth">
+    <%= image_tag "earth.png", id:"earth" %>
+  </div>
+
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item" id="trigger-left">Item 3 - Trigger left</div>
+  <div class="item" id="trigger-right">Item 4 - Trigger right</div>
+  <div class="item" id="trigger-earth">Item 5</div>
+  <div class="item" id="first">Item 6</div>
+  <div class="item" id="second">Item 7</div>
+  <div class="item" id="third">Item 8</div>
+  <div class="item" id="fourth">Item 9</div>
+
+  <div class="text" data-aos="zoom-out"
+       data-aos-anchor="#trigger-left"
+       data-aos-delay="300" id="first-text">
+    <p>Hi there!</p>
+    <p>My name is Cindy Xie.</p>
+    <p>I am originally from New York City, where I lived until summer 2017.</p>
+  </div>
+
+  <div class="text" data-aos="zoom-out"
+    data-aos-anchor="#trigger-right"
+    data-aos-delay="300" id="second-text">
+    <p>I have always had an interest in the web. I first taught myself HTML when I was a teenager so I could modify my profile on xanga.com.</p>
+  </div>
+  <div class="text" data-aos="zoom-out"
+    data-aos-anchor="#trigger-earth" id="third-text">
+    <p>During university, I learned how to build websites with Flash. Then while working, my employer at the time wanted to re-design their website. I then spent the next six weeks taking a class after work at General Assembly to learn front end web development. With those skills, I then built my first website. </p>
+  </div>
+
+  <div class="text" data-aos="fade-left"
+      data-aos-anchor="#fourth">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, eveniet sequi aspernatur dolorum quas, cumque autem dolorem explicabo vitae non reiciendis laborum facilis dolore. Excepturi qui officia assumenda maxime odit.</p>
+  </div>
+</div>
 
 
 
