@@ -13,4 +13,15 @@ console.log("yay")
 // }
 
 
-document.querySelector("#neptune").classList.add("display");
+// window.onload = function() {
+
+//  const start = (e) => {
+//   document.querySelectorAll('.neptune').classList.add("reveal");
+//  }
+
+
+//  document.getElementById("trigger-left").addEventListener("click", start);
+// }
+
+
+
