@@ -37,12 +37,13 @@ body {
 .item {
   width: 300px;
   height: 250px;
+  color: white;
 }
 
 // Spaceship
 
 #spaceship {
-  position: fixed
+  position: fixed;
 }
 
 
@@ -50,14 +51,14 @@ body {
 
 
 #jupiter {
-  left: 300px;
-  top: 350px;
   position: relative;
+  top: 500px;
+  left: 200px;
 }
 
 #moon {
   left: 800px;
-  top: 700px;
+  top: 900px;
   position: relative;
 }
 
@@ -66,13 +67,43 @@ body {
   top: 900px;
   position: relative;
 }
+
+// text
+
+#first-text {
+  left: 300px;
+  top: 250px;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  position: absolute;
+}
+
+#second-text {
+  left: 600px;
+  top: 350px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+}
+
+#third-text {
+  left: 800px;
+  top: 450px;
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: relative;
+}
+
 // STARS
 
 .stars-container {
   height: 100%;
   background: radial-gradient(ellipse at top, #48688c 0%, #090A0F 90%);
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #stars{
