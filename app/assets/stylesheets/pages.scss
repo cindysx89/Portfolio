@@ -71,8 +71,8 @@ body {
 // text
 
 #first-text {
-  left: 300px;
-  top: 250px;
+  left: 800px;
+  top: 550px;
   height: 200px;
   width: 200px;
   background-color: white;
@@ -80,21 +80,30 @@ body {
 }
 
 #second-text {
-  left: 600px;
-  top: 350px;
+  left: 800px;
+  top: 700px;
   height: 200px;
   width: 200px;
   background-color: red;
-  position: relative;
+  position: absolute;
 }
 
 #third-text {
   left: 800px;
-  top: 450px;
+  top: 950px;
   height: 200px;
   width: 200px;
   background-color: green;
-  position: relative;
+  position: absolute;
+}
+
+#fourth-text {
+  left: 800px;
+  top: 1150px;
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  position: absolute;
 }
 
 // STARS
