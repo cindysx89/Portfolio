@@ -4,6 +4,7 @@
 
 body {
   margin: 0 0;
+  font-family: 'Changa One', cursive;
 }
 
 .title-container {
@@ -44,6 +45,12 @@ body {
 
 #spaceship {
   position: fixed;
+  height: 60px;
+  width: 60px;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px; /* Negative half of height. */
+  margin-left: -30px;
 }
 
 
@@ -53,7 +60,7 @@ body {
 #jupiter {
   position: relative;
   top: 500px;
-  left: 200px;
+  left: 380px;
 }
 
 #moon {
@@ -64,43 +71,64 @@ body {
 
 #earth {
   left: 400px;
-  top: 900px;
+  top: 1100px;
   position: relative;
 }
 
 // text
 
 #first-text {
-  left: 300px;
-  top: 250px;
+  left: 800px;
+  top: 550px;
   height: 200px;
   width: 200px;
   background-color: white;
   position: absolute;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 #second-text {
-  left: 600px;
-  top: 350px;
+  left: 400px;
+  top: 800px;
   height: 200px;
   width: 200px;
   background-color: red;
-  position: relative;
+  position: absolute;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 #third-text {
   left: 800px;
-  top: 450px;
+  top: 1150px;
   height: 200px;
   width: 200px;
   background-color: green;
-  position: relative;
+  position: absolute;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+#fourth-text {
+  left: 400px;
+  top: 1450px;
+  height: 200px;
+  width: 450px;
+  background-color: yellow;
+  position: absolute;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 // STARS
 
 .stars-container {
-  height: 100%;
+  height: calc(100%-70px);
   background: radial-gradient(ellipse at top, #48688c 0%, #090A0F 90%);
   width: 100%;
   overflow: hidden;
