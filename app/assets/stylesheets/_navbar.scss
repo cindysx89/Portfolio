@@ -6,12 +6,15 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-family: 'Changa One', cursive;
+  border-bottom: 5px solid black;
   a {
     text-decoration: none;
     font-size: 25px;
     color: white;
     opacity: 0.7;
+    padding-right: 20px;
   }
 
   a:hover {
@@ -26,5 +29,5 @@
 }
 
 .nav-content {
-  padding: 0 20px;
+  padding-left: 5
 }
