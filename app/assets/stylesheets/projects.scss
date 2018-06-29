@@ -1,15 +1,18 @@
+.container {
+  background-color: #e8edef;
+}
+
 #projects-container {
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cards {
   display: flex;
   width: 100%;
 }
-
-
 
 .card-content {
   padding: 0 30px;
