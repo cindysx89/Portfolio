@@ -1,67 +1,71 @@
-<div class="stars-container">
-  <div id="stars"></div>
-  <div id="stars2"></div>
-  <div id="stars3"></div>
+<div class="container">
+<div class="row">
+  <div class="col-xs-12">
 
-  <div class="title-container" >
-    <div class="title">
-      <h2>A Web Developer's Journey</h2>
-        <%= image_tag "spaceship.png", id:"spaceship" %>
+    <div class="stars-container">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
+      <div class="title-container" >
+        <div class="title">
+          <h2>A Web Developer's Journey</h2>
+            <%= image_tag "spaceship.png", id:"spaceship" %>
+        </div>
+      </div>
+      <div class="planets" data-aos="fade-left"
+         data-aos-anchor="#trigger-left"
+     >
+        <%= image_tag "jupiter.png", id:"jupiter" %>
+      </div>
+
+      <div class="planets" data-aos="fade-right"
+         data-aos-anchor="#trigger-right">
+        <%= image_tag "moon.png", id:"moon" %>
+      </div>
+
+      <div class="planets" data-aos="fade-left"
+         data-aos-anchor="#trigger-earth">
+        <%= image_tag "planet-earth.png", id:"earth" %>
+      </div>
+
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item" id="trigger-left"></div>
+      <div class="item" id="trigger-right"></div>
+      <div class="item" id="trigger-earth"></div>
+      <div class="item" id="first"></div>
+
+
+      <div class="text" data-aos="zoom-out"
+           data-aos-anchor="#trigger-left"
+           data-aos-delay="200" id="first-text">
+        <p>Hi there!</p>
+        <p>My name is Cindy Xie.</p>
+        <p>I am originally from New York City, where I lived until summer 2017.</p>
+      </div>
+
+      <div class="text" data-aos="zoom-out"
+        data-aos-anchor="#trigger-right"
+        data-aos-delay="200" id="second-text">
+        <p>I have always had an interest in the web. I first taught myself HTML when I was a teenager so I could modify my profile on xanga.com.</p>
+      </div>
+      <div class="text" data-aos="zoom-out"
+        data-aos-anchor="#trigger-earth" id="third-text">
+        <p>During university, I learned how to build websites with Flash. Then while working full-time, I took a front-end web development class at General Assembly in order to build a new website for my employer.</p>
+        <p>Find out more about the website I built <%=link_to "here", projects_path %></p>
+      </div>
+
+      <div class="text" data-aos="zoom-out"
+          data-aos-anchor="#first" id="fourth-text">
+        <p>In summer of of 2017, I moved to London. After moving to London, I wanted to continue to learn more about the web. I took a full-stack web development course at Le Wagon. At Le Wagon, I learned Ruby on Rails, JavaScript, AJAX, HTML, SCSS, PostgreSQL, Heroku, and more!</p>
+        <p>Check out my project <%=link_to "here", projects_path %></p>
+      </div>
     </div>
-  </div>
-  <div class="planets" data-aos="fade-left"
-     data-aos-anchor="#trigger-left"
- >
-    <%= image_tag "jupiter.png", id:"jupiter" %>
-  </div>
 
-  <div class="planets" data-aos="fade-right"
-     data-aos-anchor="#trigger-right">
-    <%= image_tag "moon.png", id:"moon" %>
-  </div>
-
-  <div class="planets" data-aos="fade-left"
-     data-aos-anchor="#trigger-earth">
-    <%= image_tag "planet-earth.png", id:"earth" %>
-  </div>
-
-  <div class="item"></div>
-  <div class="item"></div>
-  <div class="item" id="trigger-left"></div>
-  <div class="item" id="trigger-right"></div>
-  <div class="item" id="trigger-earth"></div>
-  <div class="item" id="first"></div>
-
-
-  <div class="text" data-aos="zoom-out"
-       data-aos-anchor="#trigger-left"
-       data-aos-delay="200" id="first-text">
-    <p>Hi there!</p>
-    <p>My name is Cindy Xie.</p>
-    <p>I am originally from New York City, where I lived until summer 2017.</p>
-  </div>
-
-  <div class="text" data-aos="zoom-out"
-    data-aos-anchor="#trigger-right"
-    data-aos-delay="200" id="second-text">
-    <p>I have always had an interest in the web. I first taught myself HTML when I was a teenager so I could modify my profile on xanga.com.</p>
-  </div>
-  <div class="text" data-aos="zoom-out"
-    data-aos-anchor="#trigger-earth" id="third-text">
-    <p>During university, I learned how to build websites with Flash. Then while working full-time, I took a front-end web development class at General Assembly in order to build a new website for my employer.</p>
-    <p>Find out more about the website I built <%=link_to "here", projects_path %></p>
-  </div>
-
-  <div class="text" data-aos="zoom-out"
-      data-aos-anchor="#first" id="fourth-text">
-    <p>In summer of of 2017, I moved to London. After moving to London, I wanted to continue to learn more about the web. I took a full-stack web development course at Le Wagon. At Le Wagon, I learned Ruby on Rails, JavaScript, AJAX, HTML, SCSS, PostgreSQL, Heroku, and more!</p>
-    <p>Check out my project <%=link_to "here", projects_path %></p>
   </div>
 </div>
-
-
-
-
+</div>
 
 
 

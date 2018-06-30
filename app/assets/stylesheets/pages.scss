@@ -1,6 +1,7 @@
 body {
   margin: 0 0;
   font-family: 'Changa One', cursive;
+  overflow-x: hidden;
 }
 
 .title-container {
@@ -44,7 +45,7 @@ body {
   height: calc(100%-70px);
   background: radial-gradient(ellipse at top, #48688c 0%, #090A0F 90%);
   width: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 #stars{
@@ -142,4 +143,5 @@ body {
     transform: translateY(-2000px);
   }
 }
+
 
