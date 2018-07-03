@@ -1,0 +1,31 @@
+body {
+  margin: 0 0;
+  font-family: 'Changa One', cursive;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #e8edef;
+}
+
+#formview {
+  background-color: blue;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+
+}
+
+button {
+  display: block;
+}
+
+textarea {
+  height: 30%;
+}
+
+input, textarea {
+  width: 33.3%;
+}
