@@ -4,28 +4,19 @@ body {
   overflow-x: hidden;
 }
 
-// .container {
-//   background-color: #e8edef;
-// }
+input {
+  height: 20px;
+  width: 200px;
+  display: block;
+  font-size: 12px;
+}
 
-// #formview {
-//   background-color: blue;
-//   margin: 0 auto;
-// }
+#message {
+  height: 60px;
+}
 
-// input {
-//   display: block;
+#submit-btn {
+  height: 40px;
+}
 
-// }
 
-// button {
-//   display: block;
-// }
-
-// textarea {
-//   height: 30%;
-// }
-
-// input, textarea {
-//   width: 33.3%;
-// }
