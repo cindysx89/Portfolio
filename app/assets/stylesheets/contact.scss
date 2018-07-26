@@ -4,19 +4,17 @@ body {
   position: relative;
 }
 
-#con-container {
-  height: 100vh;
-  overflow-y: hidden;
+div#con-container.container {
+  height: 80vh;
 }
 
 .contact-container {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #e8edef;
-  margin: 0 auto;
 }
 
-h2, p {
+h2 {
   text-align: center;
 }
 
