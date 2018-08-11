@@ -160,6 +160,16 @@ body {
   body {
    overflow: hidden;
   }
+  .container {
+    padding: 0 0;
+    overflow: hidden;
+  }
+  .stars-container {
+    background: none;
+  }
+  .navbar {
+    padding: 0 0;
+  }
 }
 
 @media (min-width: 1200px) {
